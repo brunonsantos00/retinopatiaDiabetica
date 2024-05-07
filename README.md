@@ -18,7 +18,7 @@ O projeto está organizado nas seguintes pastas e arquivos principais:
 - `train_model.py`: Constrói e treina o modelo de rede neural usando os dados de treino.
 - `evaluate_model.py`: Avalia o modelo treinado usando o conjunto de dados de teste.
 - `predict.py`: Gera predições para um conjunto de dados de teste e prepara um arquivo CSV para submissão.
-- `main.py`: Script para automatizar a execução sequencial de outros scripts.
+- `start.py`: Script para automatizar a execução sequencial de outros scripts.
 
 ## Instalação
 
