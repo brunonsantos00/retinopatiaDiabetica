@@ -36,7 +36,7 @@ def train_model(model, train_dir):
         class_mode='binary')
 
     # Treina o modelo usando o gerador de dados de treinamento e retorna o histórico do treinamento
-    history = model.fit(train_generator, epochs=15)
+    history = model.fit(train_generator, epochs=5)
     return history
 
 # Verifica e cria o diretório de modelos, se necessário

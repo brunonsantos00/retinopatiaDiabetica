@@ -25,10 +25,10 @@ def evaluate_model(model_path, test_dir):
     print(f"Test Accuracy: {accuracy}")
     
 # Define o caminho para o modelo treinado
-model_path = 'C:\\Users\\Bruno\\Desktop\\projeto_retinopatia\\models\\diabetic_retinopathy_model.h5'
+model_path = 'C:/Users/Bruno/Desktop/projeto_retinopatia/models/diabetic_retinopathy_model.h5'
 
 # Define o caminho para o diretório que contém as imagens de teste
-test_dir = 'C:\\Users\\Bruno\\Desktop\\projeto_retinopatia\\dataset\\test\\normal'
+test_dir = 'C:/Users/Bruno/Desktop/projeto_retinopatia/dataset/test'
 
 # Chama a função evaluate_model com os caminhos configurados para avaliar o modelo
 evaluate_model(model_path, test_dir)

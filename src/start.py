@@ -5,7 +5,6 @@ def run_script(script_path):
     """Executa um script Python e permite que a saída seja mostrada diretamente no terminal."""
     print(f"Executando {script_path}...")
     try:
-        # subprocess.call não captura a saída, permitindo que ela seja exibida no terminal
         subprocess.call(['python', script_path])
         print(f"Sucesso: {script_path} completou sem erros.\n")
     except Exception as e:
